@@ -91,4 +91,14 @@ describe('Node Server Request Listener Function', function() {
     expect(res._ended).to.equal(true);
   });
 
+  // it('Should display message when asked for a nonexistent file', function() {
+  //   var req = new stubs.request('/arglebargle', 'GET');
+  //   var res = new stubs.response();
+
+  //   handler.requestHandler(req, res);
+
+  //   expect(res._responseMessage).to.equal('oops');
+  //   expect(res._ended).to.equal(true);
+  // });
+
 });

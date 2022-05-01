@@ -1,6 +1,7 @@
 var Parse = {
 
-  server: `http://127.0.0.1:3000/classes/messages`,
+  server: 'http://127.0.0.1:3002/classes/messages',
+  // server: 'https://app-hrsei-api.herokuapp.com/api/chatterbox/messages/window.rfp',
 
   create: function(message, successCB, errorCB = null) {
 
